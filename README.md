@@ -1,17 +1,13 @@
-# Monit-v1 Agent (Rust)
+# Uptix Agent (Rust)
 
-A lightweight, high-performance monitoring agent written in Rust.
+A lightweight, high-performance monitoring agent for the Uptix ecosystem. Built with Rust for maximum efficiency and zero dependencies.
 
 ## Features
-- Real-time CPU, RAM, and Disk usage monitoring.
-- Website uptime checking.
-- WebSocket communication with the Monit Hub.
-- Low resource footprint.
+- Real-time CPU, RAM, and Disk metrics.
+- Multi-site uptime monitoring.
+- Secure WebSocket communication.
 
-## Configuration
-Edit `sites.json` to add the websites you want to monitor.
-
-## Build
-```bash
-cargo build --release
-```
+## Quick Start
+1. Configure `sites.json`
+2. Build: `cargo build --release`
+3. Run: `./target/release/uptix-agent`
